@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kode Mono", monospace;
+}
+
+.login {
+  background-color: red;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+.login .login__left {
+  background-color: white;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login .login__right {
+  background-color: darkgrey;
+  height: 100%;
+  width: 50%;
+  background-image: url("https://images.unsplash.com/photo-1611262588024-d12430b98920?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+}
+.login .login__form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 500px;
+  background-color: white;
+}
+.login .login__form h2 {
+  margin-bottom: 20px;
+}
+.login .login__form .button-container {
+  display: flex;
+  gap: 20px;
+}
+.login .login__form .button-container button {
+  padding: 20px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  border: solid 2px transparent;
+  cursor: pointer;
+}/*# sourceMappingURL=index.css.map */
